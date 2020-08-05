@@ -1128,8 +1128,8 @@ def main(start_num, interval_ori, order):
 
 
 if __name__ == "__main__":
-    # start_num = 7000 * 24
-    start_num = 2 * 1000 * 24
+
+    start_num = 0
     interval_ori = 1
     _ = neo_prediction(start_num, interval_ori)
     _ = main(start_num, interval_ori, order='PM2')
